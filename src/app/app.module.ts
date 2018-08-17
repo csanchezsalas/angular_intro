@@ -13,7 +13,11 @@ import { APP_ROUTES } from './app.routes';
 
 
 // Modulos
+// páginas
 import { PagesModule } from './pages/pages.module';
+// servicios
+import { ServiceModule } from './services/service.module';
+
 
 
 
@@ -28,6 +32,7 @@ import { PagesModule } from './pages/pages.module';
     FormsModule,
     HttpModule,
     PagesModule,
+    ServiceModule,
     APP_ROUTES
   ],
   providers: [],
